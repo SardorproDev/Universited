@@ -129,10 +129,6 @@
     color: #ff0735;
     cursor: pointer;
 }
-#courese .box p:hover{
-    color: rgb(255, 0, 0);
-    color: #000;
-}
 #courese .box p{
     color: rgb(128, 128, 128);
     font-size: 13px;
@@ -382,9 +378,6 @@ i {
 #tichers .block-one p{
     font-size: 14px;
 }
-#tichers .block-one{
-    margin-right: 25px;
-}
 
 /* ----#-----certificate-----#----- */
 
@@ -477,6 +470,14 @@ i {
         border: none;
         border-radius: 5px;
         width: 100%;
+    }
+    .user__one {
+        flex-direction: column;
+        text-align: center;
+    }
+    #item__bottom .user__text p {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
     
